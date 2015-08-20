@@ -12,6 +12,7 @@ server at the moment, I figure I'll put it out there and let someone working
 in telecom in need of a synchronous library for SMPP figure it out.
 
 CHANGELOG:
+----------
 Version 0.1 - Henry Baldursson
 * Initial version
   * Supports binding, sending DATA_SM, SUBMIT_SM, ENQUIRE_LINK, and reading relevant responses. 
@@ -21,6 +22,7 @@ Version 0.1 - Henry Baldursson
   * Rudimentary polling for commands.
 
 EXAMPLES:
+---------
 How to send data to a specific port:
 ```
 	from smpp import *
